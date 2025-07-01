@@ -31,7 +31,7 @@ int main() {
     fprintf(stderr, "SDL Init Failed: %s\n", SDL_GetError());
   }
 
-  SDL_Window *pWindow = SDL_CreateWindow("Star Field", SDL_WINDOWPOS_CENTERED,
+  SDL_Window *pWindow = SDL_CreateWindow("Paint", SDL_WINDOWPOS_CENTERED,
                                          SDL_WINDOWPOS_CENTERED, 900, 700, 0);
 
   if (!pWindow) {
